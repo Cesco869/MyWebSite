@@ -1,0 +1,69 @@
+html,body{height:100%;}
+.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100% !important;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+#test {
+display: block;
+position: absolute; /* elemento fisso, non segue lo scroll */
+z-index: 2; /* livello superiore al sito */
+top: 5%; /* distanza dal margine superiore */
+margin-left: 45%;
+margin-right: 45%; /* distanza dal margine sinistro */
+width: 10%; 
+height: auto;
+}
+
+#nome {
+font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+font-size: 400%;
+color:#999933;
+text-decoration: underline;
+display: block;
+position: absolute; /* elemento fisso, non segue lo scroll */
+z-index: 2; /* livello superiore al sito */
+top: 12%; /* distanza dal margine superiore */
+margin-left: 21%;
+}
+
+#cognome {
+font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+font-size: 400%;
+color:#999933;
+text-decoration: underline;
+display: block;
+position: absolute; /* elemento fisso, non segue lo scroll */
+z-index: 2; /* livello superiore al sito */
+top: 12%; /* distanza dal margine superiore */
+margin-left: 58%;
+}
+
+.carousel {
+height:100%;
+position: relative;
+margin-bottom: 0px !important;
+line-height: 0 !important;
+}
+
+.carousel-control {
+top: 50% !important;
+
+
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

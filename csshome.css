@@ -1,0 +1,43 @@
+body{
+	width:100% !important;
+	height:100% !important;
+	background-image: url('img/homewall.jpg');
+}
+a:hover, a:focus {
+color: #484848 !important;
+text-decoration: underline;
+}
+
+.nav {  
+	margin-top:5%;
+	margin-right: 5%;
+	float:right;
+}
+
+#logo{
+	margin-top: 3%;
+	margin-left: 5%;
+	float:left;
+}
+.tab-content{
+	padding-top: 20px;	
+	width:100%; 
+}
+
+.immagini{
+	float:left;
+	margin-left: 3%;
+	margin-right: 1%;
+	width:300px;
+	height:auto;
+}
+
+
+.fill{width:100% !important;}
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
